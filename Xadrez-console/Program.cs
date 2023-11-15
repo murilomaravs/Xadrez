@@ -1,5 +1,6 @@
 ﻿using System;
 using tabuleiro;
+using Xadrez_console;
 
 namespace xadrez_console {
     class Progream {
@@ -7,7 +8,7 @@ namespace xadrez_console {
 
             Tabuleiro tab = new Tabuleiro(8,8);
 
-            Console.ReadLine();
+            Tela.imprimirTabuleiro(tab);
         }
     }
 }
